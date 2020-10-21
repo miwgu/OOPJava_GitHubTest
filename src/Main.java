@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
 
     public Main() {
-        //Person person = new Person();
+        Person person = new Person();
         String filePath = "src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\"
                 + "customers.txt";
         //String outFile = "src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\" +
@@ -44,7 +44,7 @@ public class Main {
                         exist=false;
                 }
                 if(exist=false)
-                    System.out.println("Det finns inte personnummer: " + searchPersonNr + " som meddlem.");// Det måste bara boolean...null eller det finnas
+                    System.out.println(person.getMessage2());// Det måste bara boolean...null eller det finnas
                 break;
             case 2:
                 System.out.println("Ange namn (Förnamn Eftername)");

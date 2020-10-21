@@ -1,3 +1,5 @@
+import java.security.SecureRandom;
+
 /**
  * Created by Miwa Guhrés
  * Date: 2020-10-21
@@ -33,6 +35,9 @@ public class Person {
 
     public String getMessage() {
         return String.format("%s är medlemmer.",getName());
+    }
+    public String getMessage2(){
+        return String.format("Det finns inte personnummer: %s som meddlem.",getPersonNr());
     }
 }
 
