@@ -44,6 +44,7 @@ public class Main {
                 }
                 if(exist=false)
                     System.out.println(person.getMessage2());// Det måste bara boolean...null eller det finnas
+                    System.out.println(person.getName());//----I changed same rad as B
                 break;
             case 2:
                 System.out.println("Ange namn (Förnamn Eftername)");
