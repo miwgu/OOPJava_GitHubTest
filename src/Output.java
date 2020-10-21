@@ -12,8 +12,7 @@ public class Output {
 
     public static void createFile(String memberName,String memberPersonNr)  {
         //"src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\Training.text"
-        String outFile = "src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\" +
-                memberPersonNr+".txt";
+        String outFile = "src\\" + memberPersonNr+".txt";
 
         try (PrintWriter ut = new PrintWriter(new BufferedWriter(new FileWriter(outFile, true)))) {
 

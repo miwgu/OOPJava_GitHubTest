@@ -12,8 +12,7 @@ public class Main {
 
     public Main() {
         Person person = new Person();
-        String filePath = "src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\"
-                + "customers.txt";
+        String filePath = "src\\" + "customers.txt";
         //String outFile = "src\\sprint2\\inlämningar\\uppgift2\\try2_BufferedReader\\" +
         //        "Training.text";
 
